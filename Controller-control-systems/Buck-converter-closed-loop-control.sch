@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.0>
 <Properties>
-  <View=-1156,100,2105,1995,1,1169,180>
+  <View=-186,-322,1458,1235,0.992402,0,340>
   <Grid=10,10,1>
   <DataSet=Buck-converter-closed-loop-control.dat>
   <DataDisplay=Buck-converter-closed-loop-control.dpl>
@@ -93,16 +93,11 @@
   <230 1760 230 1760 "out_PWM" 260 1730 0 "">
 </Wires>
 <Diagrams>
-  <Rect 830 700 538 340 3 #c0c0c0 1 00 1 0 0.0005 0.005 0 0 2 16 0 0 2 16 315 0 225 1 0 0 "" "" "">
+  <Rect 830 690 538 340 3 #c0c0c0 1 00 1 0 0.0005 0.005 0 0 2 16 0 0 2 16 315 0 225 1 0 0 "" "" "">
 	<"ngspice/tran.v(vout)" #0000ff 0 3 0 0 0>
+	  <Mkr 0.000760677 142 -282 3 0 0>
+	  <Mkr 0.000811169 147 -255 3 0 0>
 	<"ngspice/tran.i(viout)" #ff0000 1 3 0 0 1>
-  </Rect>
-  <Rect 1790 480 538 340 3 #c0c0c0 1 00 1 0 0.0001 0.001 1 -11.7709 5 21.7709 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
-	<"ngspice/tran.v(vout)" #0000ff 0 3 0 0 0>
-	<"ngspice/tran.i(pr1)" #ff0000 1 3 0 0 0>
-	<"ngspice/tran.v(err)" #ff00ff 1 3 0 0 0>
-	<"ngspice/tran.v(pi)" #00ff00 1 3 0 0 0>
-	<"ngspice/tran.v(out_ki)" #00ffff 1 3 0 0 0>
   </Rect>
   <Rect 740 1610 441 204 3 #c0c0c0 1 00 1 0 0.0001 0.001 1 -4.995 20 60 1 -1 0.5 1 315 0 225 1 0 0 "Time" "" "">
 	<"ngspice/tran.v(out_sat)" #0000ff 0 3 0 0 0>

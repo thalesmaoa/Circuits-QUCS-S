@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.0>
 <Properties>
-  <View=-201,19,1800,1402,0.785486,0,179>
+  <View=-197,-1,1804,1438,0.785486,0,255>
   <Grid=10,10,1>
   <DataSet=Double-stage-common-emitter-amplifier.dat>
   <DataDisplay=Double-stage-common-emitter-amplifier.dpl>
